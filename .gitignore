@@ -14,3 +14,5 @@ labs/lab3/models/
 # Local work plans
 docs/plans/
 HANDOFF.md
+# У каждого свой (из-за разницы в версии torch)
+requirements.txt 
