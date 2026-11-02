@@ -1,0 +1,17 @@
+{
+  "model": "MLP-1-tanh",
+  "threshold": 0.18,
+  "bmi_upper_bound": 81.0,
+  "config": {
+    "hidden_units": [
+      16
+    ],
+    "activation": "tanh",
+    "optimizer_name": "adam",
+    "learning_rate": 0.001,
+    "batch_size": 1024,
+    "dropout_rate": 0.0,
+    "l2_factor": 0.0,
+    "class_weight": null
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "model": "MLP-3-lr0.01-l2",
+  "class_names": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "config": {
+    "hidden_units": [
+      256,
+      128,
+      64
+    ],
+    "activation": "relu",
+    "optimizer_name": "adam",
+    "learning_rate": 0.01,
+    "batch_size": 128,
+    "dropout_rate": 0.0,
+    "l2_factor": 0.0001,
+    "weighted_class": null
+  }
+}
