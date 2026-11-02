@@ -1,1 +1,12 @@
 *.mp4
+
+# Python environment and caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Datasets are large and can be downloaded again
+labs/data/
+
+# Lab 3 models are too large for git; the small lab 1 and 2 models are kept for lab 5
+labs/lab3/models/
