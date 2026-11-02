@@ -1,0 +1,9 @@
+,До,После
+Accuracy,0.7432,0.7332
+Balanced Accuracy,0.7431,0.7332
+Macro F1,0.7413,0.7359
+Macro ROC-AUC,0.9249,0.9231
+Recall A,0.9064,0.8486
+Recall B,0.5817,0.7012
+Recall C,0.6773,0.6135
+Recall D,0.8072,0.7694

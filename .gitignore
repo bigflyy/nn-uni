@@ -10,3 +10,7 @@ labs/data/
 
 # Lab 3 models are too large for git; the small lab 1 and 2 models are kept for lab 5
 labs/lab3/models/
+
+# Local work plans
+docs/plans/
+HANDOFF.md
