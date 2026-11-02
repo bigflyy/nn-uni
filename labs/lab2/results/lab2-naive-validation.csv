@@ -1,0 +1,5 @@
+task,model,MAE,MSE,RMSE,R2,n
+next_day,Naive (persistence),1.3309,3.7069,1.9253,0.9199,547
+next_day,Seasonal naive,3.053,16.0851,4.0106,0.6526,547
+weekly_mean,Naive (persistence),1.8673,5.4214,2.3284,0.8727,541
+weekly_mean,Seasonal naive,2.2133,8.7043,2.9503,0.7956,541
