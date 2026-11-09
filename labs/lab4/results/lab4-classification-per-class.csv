@@ -1,0 +1,61 @@
+Оценка,Метод,Модель,Метрика,Класс A,Класс B,Класс C,Класс D,Macro,Weighted
+transductive,MDS,Dummy,Precision,0.25,0.0,0.0,0.0,0.0625,0.0625
+transductive,MDS,Dummy,Recall,1.0,0.0,0.0,0.0,0.25,0.25
+transductive,MDS,Dummy,F1-score,0.4,0.0,0.0,0.0,0.1,0.1
+transductive,MDS,Dummy,Support,375.0,375.0,375.0,375.0,1500.0,1500.0
+transductive,MDS,Decision Tree,Precision,0.4481,0.2894,0.3206,0.4943,0.3881,0.3881
+transductive,MDS,Decision Tree,Recall,0.368,0.24,0.3813,0.5733,0.3907,0.3907
+transductive,MDS,Decision Tree,F1-score,0.4041,0.2624,0.3484,0.5309,0.3864,0.3864
+transductive,MDS,Decision Tree,Support,375.0,375.0,375.0,375.0,1500.0,1500.0
+transductive,MDS,Random Forest,Precision,0.469,0.319,0.3224,0.4828,0.3983,0.3983
+transductive,MDS,Random Forest,Recall,0.424,0.1787,0.392,0.6373,0.408,0.408
+transductive,MDS,Random Forest,F1-score,0.4454,0.2291,0.3538,0.5494,0.3944,0.3944
+transductive,MDS,Random Forest,Support,375.0,375.0,375.0,375.0,1500.0,1500.0
+transductive,Isomap,Dummy,Precision,0.25,0.0,0.0,0.0,0.0625,0.0625
+transductive,Isomap,Dummy,Recall,1.0,0.0,0.0,0.0,0.25,0.25
+transductive,Isomap,Dummy,F1-score,0.4,0.0,0.0,0.0,0.1,0.1
+transductive,Isomap,Dummy,Support,375.0,375.0,375.0,375.0,1500.0,1500.0
+transductive,Isomap,Decision Tree,Precision,0.4402,0.2787,0.2983,0.445,0.3656,0.3656
+transductive,Isomap,Decision Tree,Recall,0.4027,0.2587,0.3253,0.4747,0.3653,0.3653
+transductive,Isomap,Decision Tree,F1-score,0.4206,0.2683,0.3112,0.4594,0.3649,0.3649
+transductive,Isomap,Decision Tree,Support,375.0,375.0,375.0,375.0,1500.0,1500.0
+transductive,Isomap,Random Forest,Precision,0.4402,0.3258,0.307,0.4011,0.3685,0.3685
+transductive,Isomap,Random Forest,Recall,0.52,0.0773,0.3413,0.5893,0.382,0.382
+transductive,Isomap,Random Forest,F1-score,0.4768,0.125,0.3232,0.4773,0.3506,0.3506
+transductive,Isomap,Random Forest,Support,375.0,375.0,375.0,375.0,1500.0,1500.0
+transductive,LLE,Dummy,Precision,0.25,0.0,0.0,0.0,0.0625,0.0625
+transductive,LLE,Dummy,Recall,1.0,0.0,0.0,0.0,0.25,0.25
+transductive,LLE,Dummy,F1-score,0.4,0.0,0.0,0.0,0.1,0.1
+transductive,LLE,Dummy,Support,375.0,375.0,375.0,375.0,1500.0,1500.0
+transductive,LLE,Decision Tree,Precision,0.4731,0.2932,0.3067,0.4316,0.3761,0.3761
+transductive,LLE,Decision Tree,Recall,0.352,0.24,0.3173,0.6053,0.3787,0.3787
+transductive,LLE,Decision Tree,F1-score,0.4037,0.2639,0.3119,0.5039,0.3709,0.3709
+transductive,LLE,Decision Tree,Support,375.0,375.0,375.0,375.0,1500.0,1500.0
+transductive,LLE,Random Forest,Precision,0.5097,0.2787,0.3341,0.4606,0.3958,0.3958
+transductive,LLE,Random Forest,Recall,0.4213,0.2267,0.3707,0.576,0.3987,0.3987
+transductive,LLE,Random Forest,F1-score,0.4613,0.25,0.3515,0.5118,0.3937,0.3937
+transductive,LLE,Random Forest,Support,375.0,375.0,375.0,375.0,1500.0,1500.0
+transductive,t-SNE,Dummy,Precision,0.25,0.0,0.0,0.0,0.0625,0.0625
+transductive,t-SNE,Dummy,Recall,1.0,0.0,0.0,0.0,0.25,0.25
+transductive,t-SNE,Dummy,F1-score,0.4,0.0,0.0,0.0,0.1,0.1
+transductive,t-SNE,Dummy,Support,375.0,375.0,375.0,375.0,1500.0,1500.0
+transductive,t-SNE,Decision Tree,Precision,0.5524,0.3562,0.4121,0.7,0.5052,0.5052
+transductive,t-SNE,Decision Tree,Recall,0.576,0.3467,0.4,0.7093,0.508,0.508
+transductive,t-SNE,Decision Tree,F1-score,0.564,0.3514,0.406,0.7046,0.5065,0.5065
+transductive,t-SNE,Decision Tree,Support,375.0,375.0,375.0,375.0,1500.0,1500.0
+transductive,t-SNE,Random Forest,Precision,0.5468,0.3513,0.4638,0.7143,0.519,0.519
+transductive,t-SNE,Random Forest,Recall,0.608,0.3307,0.4267,0.7333,0.5247,0.5247
+transductive,t-SNE,Random Forest,F1-score,0.5758,0.3407,0.4444,0.7237,0.5211,0.5211
+transductive,t-SNE,Random Forest,Support,375.0,375.0,375.0,375.0,1500.0,1500.0
+transductive,UMAP,Dummy,Precision,0.25,0.0,0.0,0.0,0.0625,0.0625
+transductive,UMAP,Dummy,Recall,1.0,0.0,0.0,0.0,0.25,0.25
+transductive,UMAP,Dummy,F1-score,0.4,0.0,0.0,0.0,0.1,0.1
+transductive,UMAP,Dummy,Support,375.0,375.0,375.0,375.0,1500.0,1500.0
+transductive,UMAP,Decision Tree,Precision,0.5363,0.3321,0.3656,0.5448,0.4447,0.4447
+transductive,UMAP,Decision Tree,Recall,0.552,0.2453,0.4027,0.616,0.454,0.454
+transductive,UMAP,Decision Tree,F1-score,0.544,0.2822,0.3832,0.5782,0.4469,0.4469
+transductive,UMAP,Decision Tree,Support,375.0,375.0,375.0,375.0,1500.0,1500.0
+transductive,UMAP,Random Forest,Precision,0.5623,0.3404,0.3728,0.5619,0.4594,0.4594
+transductive,UMAP,Random Forest,Recall,0.5653,0.256,0.3867,0.6773,0.4713,0.4713
+transductive,UMAP,Random Forest,F1-score,0.5638,0.2922,0.3796,0.6143,0.4625,0.4625
+transductive,UMAP,Random Forest,Support,375.0,375.0,375.0,375.0,1500.0,1500.0

@@ -1,0 +1,11 @@
+Метод,Размерность,Конфигурация,Параметры,Trustworthiness,Stress
+MDS,2,n_init=1,"n_init=1, init=random",0.8843,0.2157
+MDS,3,n_init=1,"n_init=1, init=random",0.947,0.1257
+Isomap,2,n_neighbors=10,n_neighbors=10,0.8803,
+Isomap,3,n_neighbors=10,n_neighbors=10,0.9433,
+LLE,2,n_neighbors=30,"n_neighbors=30, reg=0.001",0.8685,
+LLE,3,n_neighbors=30,"n_neighbors=30, reg=0.001",0.9259,
+t-SNE,2,perplexity=30,"perplexity=30, init=pca",0.9923,
+t-SNE,3,perplexity=30,"perplexity=30, init=pca",0.996,
+UMAP,2,"n_neighbors=15, min_dist=0.1","n_neighbors=15, min_dist=0.1",0.9419,
+UMAP,3,"n_neighbors=15, min_dist=0.1","n_neighbors=15, min_dist=0.1",0.9774,

@@ -7,7 +7,7 @@ __pycache__/
 
 # Datasets are large and can be downloaded again
 labs/data/
-
+labs/lab4/models/
 # Lab2
 labs/lab2/models/
 

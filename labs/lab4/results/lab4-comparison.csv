@@ -1,0 +1,6 @@
+Метод,Параметры 2D,Trustworthiness 2D,Trustworthiness 3D,Stress (MDS),Лучший K по ARI,Размерность лучшего ARI,ARI,NMI,Лучший Silhouette,DT Accuracy,RF Accuracy,DT F1 macro,RF F1 macro,DT strict Accuracy,RF strict Accuracy
+MDS,"n_init=1, init=random",0.8843,0.947,0.2157,6,3,0.0626,0.084,0.3925,0.3907,0.408,0.3864,0.3944,,
+Isomap,n_neighbors=10,0.8803,0.9433,,6,3,0.0368,0.0497,0.437,0.3653,0.382,0.3649,0.3506,0.364,0.3813
+LLE,"n_neighbors=30, reg=0.001",0.8685,0.9259,,4,3,0.0532,0.0767,0.3856,0.3787,0.3987,0.3709,0.3937,,
+t-SNE,"perplexity=30, init=pca",0.9923,0.996,,4,3,0.0368,0.0431,0.4449,0.508,0.5247,0.5065,0.5211,,
+UMAP,"n_neighbors=15, min_dist=0.1",0.9419,0.9774,,6,3,0.0408,0.0553,0.5474,0.454,0.4713,0.4469,0.4625,0.4453,0.4647

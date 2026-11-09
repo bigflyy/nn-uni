@@ -1,0 +1,7 @@
+Оценка,Метод,Модель,Accuracy,Precision macro,Recall macro,F1 macro,Precision weighted,Recall weighted,F1 weighted,Параметры
+strict,Isomap,Dummy,0.25,0.0625,0.25,0.1,0.0625,0.25,0.1,
+strict,Isomap,Decision Tree,0.364,0.3587,0.364,0.3578,0.3587,0.364,0.3578,"{'max_depth': 7, 'min_samples_leaf': 1}"
+strict,Isomap,Random Forest,0.3813,0.3745,0.3813,0.3742,0.3745,0.3813,0.3742,"{'max_depth': 10, 'max_features': 'sqrt'}"
+strict,UMAP,Dummy,0.25,0.0625,0.25,0.1,0.0625,0.25,0.1,
+strict,UMAP,Decision Tree,0.4453,0.4429,0.4453,0.4433,0.4429,0.4453,0.4433,"{'max_depth': 10, 'min_samples_leaf': 10}"
+strict,UMAP,Random Forest,0.4647,0.4582,0.4647,0.4605,0.4582,0.4647,0.4605,"{'max_depth': 10, 'max_features': 1.0}"

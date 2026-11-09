@@ -1,0 +1,16 @@
+Оценка,Метод,Модель,Accuracy,Precision macro,Recall macro,F1 macro,Precision weighted,Recall weighted,F1 weighted,Параметры
+transductive,MDS,Dummy,0.25,0.0625,0.25,0.1,0.0625,0.25,0.1,
+transductive,MDS,Decision Tree,0.3907,0.3881,0.3907,0.3864,0.3881,0.3907,0.3864,"{'max_depth': 7, 'min_samples_leaf': 20}"
+transductive,MDS,Random Forest,0.408,0.3983,0.408,0.3944,0.3983,0.408,0.3944,"{'max_depth': 5, 'max_features': 1.0}"
+transductive,Isomap,Dummy,0.25,0.0625,0.25,0.1,0.0625,0.25,0.1,
+transductive,Isomap,Decision Tree,0.3653,0.3656,0.3653,0.3649,0.3656,0.3653,0.3649,"{'max_depth': 7, 'min_samples_leaf': 10}"
+transductive,Isomap,Random Forest,0.382,0.3685,0.382,0.3506,0.3685,0.382,0.3506,"{'max_depth': 5, 'max_features': 'sqrt'}"
+transductive,LLE,Dummy,0.25,0.0625,0.25,0.1,0.0625,0.25,0.1,
+transductive,LLE,Decision Tree,0.3787,0.3761,0.3787,0.3709,0.3761,0.3787,0.3709,"{'max_depth': 5, 'min_samples_leaf': 20}"
+transductive,LLE,Random Forest,0.3987,0.3958,0.3987,0.3937,0.3958,0.3987,0.3937,"{'max_depth': 10, 'max_features': 'sqrt'}"
+transductive,t-SNE,Dummy,0.25,0.0625,0.25,0.1,0.0625,0.25,0.1,
+transductive,t-SNE,Decision Tree,0.508,0.5052,0.508,0.5065,0.5052,0.508,0.5065,"{'max_depth': None, 'min_samples_leaf': 10}"
+transductive,t-SNE,Random Forest,0.5247,0.519,0.5247,0.5211,0.519,0.5247,0.5211,"{'max_depth': None, 'max_features': 'sqrt'}"
+transductive,UMAP,Dummy,0.25,0.0625,0.25,0.1,0.0625,0.25,0.1,
+transductive,UMAP,Decision Tree,0.454,0.4447,0.454,0.4469,0.4447,0.454,0.4469,"{'max_depth': 7, 'min_samples_leaf': 5}"
+transductive,UMAP,Random Forest,0.4713,0.4594,0.4713,0.4625,0.4594,0.4713,0.4625,"{'max_depth': 10, 'max_features': 'sqrt'}"
