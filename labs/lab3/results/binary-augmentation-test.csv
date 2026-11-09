@@ -1,0 +1,4 @@
+Модель,Порог,Accuracy,Balanced Accuracy,Precision,Recall,F1,Macro F1,ROC-AUC,разрыв loss (val - train),разрыв accuracy (train - val)
+CNN-2-narrow,0.5,0.9711,0.9097,0.95,0.8261,0.8837,0.9336,0.9965,-0.0626,-0.0397
+CNN-2-narrow-aug,0.5,0.9422,0.893,0.76,0.8261,0.7917,0.8791,0.9652,-0.132,-0.0923
+CNN-2-narrow-aug-oversample,0.5,0.9422,0.9483,0.7097,0.9565,0.8148,0.8903,0.9942,0.0045,0.0132

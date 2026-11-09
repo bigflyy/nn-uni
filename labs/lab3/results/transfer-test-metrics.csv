@@ -1,0 +1,6 @@
+Модель,Accuracy,Balanced Accuracy,Macro Precision,Macro Recall,Macro F1,Macro ROC-AUC
+Dummy,0.4644,0.3333,0.1548,0.3333,0.2114,0.5
+A-frozen,0.9876,0.9911,0.9689,0.9911,0.9794,0.9998
+A-frozen-dropout,0.9814,0.9867,0.9461,0.9867,0.9644,0.9998
+B-finetune-lr1e-05,0.9938,0.9956,0.9839,0.9956,0.9896,1.0
+B-finetune-lr0.0001,0.9876,0.9911,0.9506,0.9911,0.9688,0.9998

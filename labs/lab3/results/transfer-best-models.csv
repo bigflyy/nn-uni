@@ -1,0 +1,5 @@
+,value
+frozen_best,A-frozen
+finetune_best,B-finetune-lr0.0001
+final,B-finetune-lr0.0001
+input,"224x224x3 RGB, mobilenet_v2.preprocess_input"

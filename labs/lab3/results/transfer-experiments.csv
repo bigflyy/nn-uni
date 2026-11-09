@@ -1,0 +1,5 @@
+Модель,Режим,Вход,Архитектура,Разморожено слоёв основы,Dropout,Оптимизатор,lr,Batch,Обучаемых параметров,Всего параметров,Макс. эпох,Эпох до остановки,Лучшая эпоха,"Время, с",train loss,val loss,train accuracy,val accuracy,val Balanced Accuracy,val Macro Precision,val Macro Recall,val Macro F1,val Macro ROC-AUC
+A-frozen,A: замороженная основа,224x224x3,MobileNetV2 (ImageNet) + GAP + Dense 3,0,0.0,adam,0.001,32,3843,2261827,40,31,23,230.0,0.0145,0.0417,0.9987,0.9814,0.9744,0.9633,0.9744,0.9687,0.9996
+A-frozen-dropout,A: замороженная основа,224x224x3,MobileNetV2 (ImageNet) + GAP + Dropout 0.2 + Dense 3,0,0.2,adam,0.001,32,3843,2261827,40,29,21,195.8,0.0261,0.0487,0.994,0.9845,0.9889,0.9571,0.9889,0.9718,0.9994
+B-finetune-lr1e-05,B: fine-tuning,224x224x3,MobileNetV2 (ImageNet) + GAP + Dense 3,30,0.0,adam,1e-05,32,1514563,2261827,30,16,8,114.5,0.0003,0.0315,1.0,0.9907,0.9933,0.9711,0.9933,0.9816,0.9999
+B-finetune-lr0.0001,B: fine-tuning,224x224x3,MobileNetV2 (ImageNet) + GAP + Dense 3,30,0.0,adam,0.0001,32,1514563,2261827,30,14,6,100.2,0.0028,0.0078,0.9987,0.9969,0.9978,0.9861,0.9978,0.9918,1.0
