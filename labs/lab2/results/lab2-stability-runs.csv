@@ -1,0 +1,41 @@
+task,model,window,units,params,seed,epochs_run,val_RMSE
+next_day,MLP,7,64,577,42,38,1.7567
+next_day,MLP,7,64,577,7,40,1.7657
+next_day,MLP,7,64,577,123,29,1.7928
+next_day,MLP,7,64,577,2024,23,1.7903
+next_day,MLP,7,64,577,31337,21,1.768
+next_day,LSTM,60,32,4385,42,44,1.7819
+next_day,LSTM,60,32,4385,7,35,1.7993
+next_day,LSTM,60,32,4385,123,29,1.7977
+next_day,LSTM,60,32,4385,2024,26,1.7916
+next_day,LSTM,60,32,4385,31337,28,1.7948
+next_day,SimpleRNN,7,32,1121,42,15,1.7863
+next_day,SimpleRNN,7,32,1121,7,29,1.7866
+next_day,SimpleRNN,7,32,1121,123,17,1.7927
+next_day,SimpleRNN,7,32,1121,2024,23,1.7848
+next_day,SimpleRNN,7,32,1121,31337,24,1.7866
+next_day,Stacked LSTM,7,32,12705,42,34,1.7868
+next_day,Stacked LSTM,7,32,12705,7,46,1.7847
+next_day,Stacked LSTM,7,32,12705,123,28,1.7902
+next_day,Stacked LSTM,7,32,12705,2024,32,1.7836
+next_day,Stacked LSTM,7,32,12705,31337,24,1.7953
+weekly_mean,LSTM,60,32,4385,42,31,1.8937
+weekly_mean,LSTM,60,32,4385,7,34,1.9544
+weekly_mean,LSTM,60,32,4385,123,33,1.931
+weekly_mean,LSTM,60,32,4385,2024,17,2.0014
+weekly_mean,LSTM,60,32,4385,31337,27,1.9749
+weekly_mean,SimpleRNN,60,32,1121,42,18,2.0126
+weekly_mean,SimpleRNN,60,32,1121,7,26,2.0511
+weekly_mean,SimpleRNN,60,32,1121,123,18,2.0211
+weekly_mean,SimpleRNN,60,32,1121,2024,20,2.073
+weekly_mean,SimpleRNN,60,32,1121,31337,24,2.0058
+weekly_mean,Stacked LSTM,14,32,12705,42,32,2.0744
+weekly_mean,Stacked LSTM,14,32,12705,7,37,2.0923
+weekly_mean,Stacked LSTM,14,32,12705,123,36,2.0872
+weekly_mean,Stacked LSTM,14,32,12705,2024,28,2.0888
+weekly_mean,Stacked LSTM,14,32,12705,31337,26,2.0919
+weekly_mean,MLP,7,32,289,42,76,2.0917
+weekly_mean,MLP,7,32,289,7,40,2.103
+weekly_mean,MLP,7,32,289,123,30,2.1165
+weekly_mean,MLP,7,32,289,2024,80,2.0936
+weekly_mean,MLP,7,32,289,31337,67,2.1082
